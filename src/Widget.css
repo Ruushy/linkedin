@@ -1,0 +1,64 @@
+.widgetsArticle{
+    position: sticky;
+    margin-right: 20px;
+    width: 100%;
+    top: 80px;
+    flex: 0.1;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    text-align: center;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.widget_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.widget_header >{
+    font-size: 16px;
+    font-weight: 400;
+}
+.widgetsArticle{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widgetsArticle:hover{
+    background-color: whitesmoke;
+}
+.articleRight{
+    color: #0177b7;
+    margin-right: 7px;
+}
+.articleRight > muiSvgIcon-root{
+    font-size: 15px;
+}
+.articleLeft {
+    flex: 1;
+}
+.articleLeft > h4{
+    font-size: 14px;
+
+}
+.articleLeft > p
+{
+    font-size: 12px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
